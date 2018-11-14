@@ -1,0 +1,142 @@
+body {
+  background-color: #000;
+  font-family: Verdana, Arial, sans-serif
+}
+
+.fixedwidth {
+  margin: 5px auto;
+  max-width: 800px;
+  border: 5px solid #FFE066;
+  margin-top: 5px;
+  background-color: #2EB8B8;
+}
+
+#title {
+  text-align: center;
+}
+
+select {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+table tr:nth-child(even) {
+  background-color: #FFE066;
+  color: #000;
+}
+
+table tr:nth-child(odd) {
+  background-color: #E6CA5C;
+  color: #000;
+}
+
+#Christmas2015Table tr:nth-child(even) {
+  background-color: #C21F1F;
+  color: #fff;
+}
+
+#Christmas2015Table tr:nth-child(odd) {
+  background-color: #8C0E0E;
+  color: #fff;
+}
+
+#Christmas2015Table a:link{
+    color:#ffed66;
+}
+
+#Christmas2015Table a:visited{
+    color:#ffd11a;
+}
+
+#winter2016Table tr:nth-child(even) {
+  background-color: #b4cffa;
+}
+
+#winter2016Table tr:nth-child(odd) {
+  background-color: #006bce;
+}
+
+button {
+  min-width: 150px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#fall2015button {
+  background-color: #FFE066;
+  border: 2px solid #E6CA5C;
+  margin-left: 100px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#christmas2015button {
+  background-color: #C21F1F;
+  border: 2px solid #8C0E0E;
+}
+
+#winter2016button {
+  background: #b4cffa;
+  border: 2px solid #006bce;
+}
+
+.hiddenButton {
+  box-shadow: inset 0 0 0 1px #27496d, inset 0 5px 30px #193047;
+}
+
+.blackRow {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.lightRedRow {
+background-color: #d46262;
+color: #000;
+border: 1px solid #000;
+}
+
+#voiceNames {
+  min-width: 150px;
+  margin: 0 auto 20px 38%;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  clear: both;
+}
+
+#accordion h3:nth-child(even) {
+  background: #249393;
+}
+
+#accordion h3:nth-child(odd) {
+  background: #2EB8B8;
+}
+
+#accordion div:nth-child(even) {
+  background: #FFE066;
+}
+
+#accordion div:nth-child(odd) {
+  background: #E6CA5C;
+}
+
+iframe {
+  padding-left: 15px;
+}
+
+.hidden {
+  display: none;
+}
